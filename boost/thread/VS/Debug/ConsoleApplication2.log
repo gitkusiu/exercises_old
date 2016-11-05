@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  ConsoleApplication2.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'libboost_thread-vc140-mt-gd-1_62.lib'
