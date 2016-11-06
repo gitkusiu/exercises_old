@@ -26,6 +26,8 @@ int main()
 	}
 	t.join();
 	//    t2.join();
+	int g;
+	std::cin >> g;
 	return 0;
 }
 
