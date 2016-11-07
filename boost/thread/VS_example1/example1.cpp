@@ -7,7 +7,7 @@ using namespace std;
 
 void GlobalFunction()
 {
-	for (int i = 0; i<10; ++i)
+	for (int i = 0; i < 10; ++i)
 	{
 		cout << i << "Do something in parallel with main method." << endl;
 		//        boost::this_thread::yield(); // 'yield' discussed in section 18.6
@@ -19,7 +19,7 @@ int main()
 {
 	boost::thread t(&GlobalFunction);
 	//    boost::thread t2(&GlobalFunction);
-	for (int i = 0; i<10; i++)
+	for (int i = 0; i < 10; i++)
 	{
 		cout << i << "Do something in main method." << endl;
 		boost::this_thread::yield();
