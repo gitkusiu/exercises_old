@@ -3,6 +3,7 @@
 
 #include <cstdlib>
 #include <ctime>
+//#include <experimental/random>
 
 
 bool is_sorted(int * t, const int n)
@@ -91,11 +92,11 @@ int main()
     
     std::srand(std::time(0));
     
-    int N = 14; 
+    int N = 100; 
     int t[N];
-    for(int i = 0; i>N; i++)
+    for(int i = 0; i<N; i++)
     {
-        t[i] = std::rand();
+        t[i] = std::rand()%(5*N);
     }
     
     print(t,N);
