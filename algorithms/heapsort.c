@@ -5,6 +5,7 @@
 #include <ctime>
 //#include <experimental/random>
 
+// to właśnie jest zmiana na branhcu NEW
 
 bool is_sorted(int * t, const int n)
 {
