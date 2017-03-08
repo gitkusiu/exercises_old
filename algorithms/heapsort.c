@@ -6,6 +6,8 @@
 //#include <experimental/random>
 
 
+// To jest zmiana na branchu new
+
 bool is_sorted(int * t, const int n)
 {
     for(int i=0; i<n-1; i++)
