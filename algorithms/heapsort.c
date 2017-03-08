@@ -7,6 +7,9 @@
 
 // to właśnie jest zmiana na branhcu NEW
 
+
+// i jeszcze jedna zmaiana
+
 bool is_sorted(int * t, const int n)
 {
     for(int i=0; i<n-1; i++)
