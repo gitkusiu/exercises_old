@@ -32,6 +32,9 @@
 
 //uyuytyutyu
 
+
+//j/hjghjghkghkghk
+
 //hjkhjkhjkhj
 
 bool is_sorted(int * t, const int n)
