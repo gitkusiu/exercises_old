@@ -18,6 +18,8 @@
 
 // To jest trzecia zmiana na branchu master
 
+// Tutaj nowe
+
 bool is_sorted(int * t, const int n)
 {
     for(int i=0; i<n-1; i++)
