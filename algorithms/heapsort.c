@@ -31,11 +31,14 @@
 // druga smaina na new2
 
 //332343453
+//uyuytyutyu
 
 //kkkkkkk
 //345345345345
 
+//j/hjghjghkghkghk
 
+//hjkhjkhjkhj
 
 bool is_sorted(int * t, const int n)
 {
