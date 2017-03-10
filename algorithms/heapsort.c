@@ -29,6 +29,13 @@
 
 // smaina na new2
 // druga smaina na new2
+
+//332343453
+
+//345345345345
+
+
+
 bool is_sorted(int * t, const int n)
 {
     for(int i=0; i<n-1; i++)
