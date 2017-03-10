@@ -10,6 +10,9 @@
 
 // i jeszcze jedna zmaiana
 
+
+
+
 // To jest zmiana na branchu new
 
 
