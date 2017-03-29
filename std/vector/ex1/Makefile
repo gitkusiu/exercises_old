@@ -1,5 +1,8 @@
 all:
-	g++ -std=c++14 main.cpp -o main.x
+	g++ -std=c++11 main.cpp -o main.x
+
+
+
 
 
 #CC=g++
