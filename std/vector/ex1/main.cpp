@@ -20,11 +20,12 @@ int* a;
 
 
 
-
+template class std::vector<long>;
 
 int main()
 {
 
+    
     A a;
 
     vector<A> v2;
