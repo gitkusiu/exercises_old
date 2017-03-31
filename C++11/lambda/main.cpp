@@ -2,6 +2,7 @@
 #include <list>
 #include <string>
 #include <algorithm>
+#include <initializer_list>
 
 class A {};
 int main()
@@ -32,5 +33,24 @@ int main()
 
     std::cout << std::count_if(l.begin(), l.end(), lt3);
     cout << endl;
+    
+    
+    
+    list<int> l5 = {2,3,4,5};
+    
+    A a1,a2,a4;
+    
+    list<A> lA = {a1,a2,a4};
+    
+    std::initializer_list<A> il=  {a1,a2,a4};
+    
+    list<A> lA2 = il;
+    
+    int x =2;
+    x+1;
+   
+    int  xx= (x+1);
+    
+    cout << "KKK " << xx <<endl;
     return 0;
 }
