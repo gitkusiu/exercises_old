@@ -7,6 +7,7 @@ LIB= -L $(GTEST)/lib
 all :
 	g++ test.cpp -o test $(INCLUDE) $(LIB) -lgmock -lgmock_main -pthread
 
-
+clean:
+	rm test
 
 #	g++ test.cpp -o test -I /home/kusiu/libs/googlemock/include -I /home/kusiu/libs/googletest/include/ -L /home/kusiu/libs/lib/ -lgmock -lgmock_main -pthread

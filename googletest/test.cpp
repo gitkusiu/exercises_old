@@ -48,13 +48,14 @@ TEST_F(QueueTest, IsClassEqual) {
 
 
 TEST(PainterTest, CanDrawSomething) {
-//  MockTurtle turtle;                          // #2
-//  EXPECT_CALL(turtle, PenDown())              // #3
+  MockTurtle turtle;                          // #2
+  EXPECT_CALL(turtle, PenDown())              // #3
 //      .Times(AtLeast(1));
+      .Times(1);
+      
+  Painter painter(&turtle);                   // #4
 
-//  Painter painter(&turtle);                   // #4
-
-//  EXPECT_TRUE(painter.DrawCircle(0, 0, 10));
+  EXPECT_TRUE(painter.DrawCircle(0, 0, 10));
 }                                             // #5
 
 

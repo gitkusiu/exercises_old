@@ -38,6 +38,19 @@ class MockTurtle : public Turtle {
 };
 
 
+class Painter
+{
+    public:
+    Painter(MockTurtle * mock) : m_mock(mock) {}
+    bool DrawCircle(int a, int b, int c)
+    {
+        m_mock->PenDown();
+        return true;
+    }
+    
+    MockTurtle * m_mock;
+};
+
 class A
 {
     public:
