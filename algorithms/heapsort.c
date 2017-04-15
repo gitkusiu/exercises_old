@@ -10,6 +10,9 @@
 
 // i jeszcze jedna zmaiana
 
+
+
+
 // To jest zmiana na branchu new
 
 
@@ -17,6 +20,25 @@
 
 
 // To jest trzecia zmiana na branchu master
+
+// Tutaj nowe
+
+
+
+// zmiany na master
+
+// smaina na new2
+// druga smaina na new2
+
+//332343453
+//uyuytyutyu
+
+//kkkkkkk
+//345345345345
+
+//j/hjghjghkghkghk
+
+//hjkhjkhjkhj
 
 bool is_sorted(int * t, const int n)
 {

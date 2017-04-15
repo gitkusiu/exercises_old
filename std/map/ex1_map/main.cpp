@@ -67,5 +67,11 @@ int main()
    std::cout << (i2 == m3.end()) << std::endl;
    std::cout << (i6 == m3.end()) << std::endl;
 
+    std::map<char,int> xxx;
+
+    xxx.insert(std::pair<char,int>('r',2));
+
+    std::cout << "KK " << (*xxx.begin()).first << " " << (*xxx.begin()).second << std::endl;
+
     return 0;
 }
